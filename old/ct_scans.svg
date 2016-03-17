@@ -1,0 +1,28 @@
+<!-- <?xml-stylesheet type="text/css" href="svg.css" ?> -->
+<svg id="background" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184.5 322.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill:#bcbec0;
+      }
+      .cls-3:hover {
+        fill:green;
+      }
+      .cls-2:hover {
+        fill:red;
+      }
+      .cls-1:hover {
+        fill:blue;
+      }
+      .cls-2 {
+        fill:#d1d3d4;
+      }
+      .cls-3 {
+        fill:#f1f2f2;
+        opacity:0.25;
+      }
+    </style>
+  </defs>
+  <title>ct_scans</title>
+  <rect class="cls-1" width="184.5" height="322.5"/><rect class="cls-2" x="170.09" y="0.5" width="6.98" height="322"/><rect class="cls-2" x="157.59" y="0.5" width="6.98" height="322"/><rect class="cls-2" x="145.09" y="0.5" width="6.98" height="322"/><rect class="cls-2" x="132.59" y="0.5" width="6.98" height="322"/><rect class="cls-2" x="120.09" y="0.5" width="6.98" height="322"/><rect class="cls-2" x="104.09" y="0.5" width="6.98" height="322"/><rect class="cls-2" x="88.09" y="0.5" width="6.98" height="322"/><rect class="cls-2" x="75.59" y="0.5" width="6.98" height="322"/><rect class="cls-2" x="63.09" y="0.5" width="6.98" height="322"/><rect class="cls-2" x="50.59" y="0.5" width="6.98" height="322"/><rect class="cls-2" x="41.02" y="0.5" width="6.98" height="322"/><rect class="cls-2" x="31.09" y="0.5" width="6.98" height="322"/><rect class="cls-2" x="18.59" y="0.5" width="6.98" height="322"/><rect class="cls-2" x="6.449" y="0.5" width="6.98" height="322"/><rect class="cls-3" width="184.5" height="13.174"/><rect class="cls-3" y="32.5" width="184.5" height="17.674"/><rect class="cls-3" y="64.833" width="184.5" height="17.674"/><rect class="cls-3" y="93.5" width="184.5" height="17.674"/><rect class="cls-3" y="122.167" width="184.5" height="17.674"/><rect class="cls-3" y="153.167" width="184.5" height="17.674"/><rect class="cls-3" y="180.833" width="184.5" height="17.674"/><rect class="cls-3" y="212.833" width="184.5" height="17.674"/><rect class="cls-3" y="241.5" width="184.5" height="17.674"/><rect class="cls-3" y="268.352" width="184.5" height="10.638"/><rect class="cls-3" y="288.167" width="184.5" height="14.38"/>
+</svg>

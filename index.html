@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<title>Blueprint: Responsive Content Slider</title>
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link href="css/styles.css" type="text/css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+		<script src="js/modernizr.custom.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="main">
+				<div id="cbp-contentslider" class="cbp-contentslider">
+					<ul>
+						<li id="slide1">
+							<h3 class="slideTitle">Big Red</h3>
+							<div class="row">
+								<div class="col-md-8">
+									<div class="main-content">
+										<img class="svg" src="assets/coral_ct_scan.svg" />
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="cbp-content">
+										<div class="contentDiv" id="info">
+											<h4>Dissecting the Coral</h4>
+											<p>
+												Instructions: Brunch raw denim twee, DIY squid letterpress irony gastropub sustainable scenester
+								        mumblecore keytar helvetica. 3 wolf moon umami typewriter polaroid ramps microdosing. Schlitz fanny
+								        pack lomo small batch, organic tacos lo-fi taxidermy distillery truffaut literally sartorial dreamcatcher
+								        gentrify. Readymade swag cray.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li id="slide2">
+							<h3 class="slideTitle">Big Red</h3>
+							<div class="row">
+								<div class="col-md-8">
+									<div class="main-content">
+										<img class="svg" src="assets/coral_ct_scan2.svg" />
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="cbp-content">
+										<div class="contentDiv" id="info2">
+											<h4>Dissecting the Coral</h4>
+											<p>
+												Instructions: Brunch raw denim twee, DIY squid letterpress irony gastropub sustainable scenester
+								        mumblecore keytar helvetica. 3 wolf moon umami typewriter polaroid ramps microdosing. Schlitz fanny
+								        pack lomo small batch, organic tacos lo-fi taxidermy distillery truffaut literally sartorial dreamcatcher
+								        gentrify. Readymade swag cray.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<nav>
+						<a href="#slide1" class="icon-wolf"><span>Coral Sample 1</span></a>
+						<a href="#slide2" class="icon-rabbit"><span>Coral Sample 2</span></a>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<!-- <script src="js/jquery.min.js"></script> -->
+		<script src="js/jquery.cbpContentSlider.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpContentSlider( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 500,
+					// default transition easing
+					easing : 'ease-in-out',
+					// current item's index
+					current : 0
+				}
+				- destroy:
+				$( selector ).cbpContentSlider( 'destroy' );
+				*/
+
+				$( '#cbp-contentslider' ).cbpContentSlider();
+			});
+		</script>
+	</body>
+</html>

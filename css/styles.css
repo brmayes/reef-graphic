@@ -1,0 +1,54 @@
+/*FOR SVG1*/
+.cls-933 {
+  fill: #df7760;
+  opacity: 0.4;
+}
+
+.cls-933:hover {
+  fill: #df7760;
+  opacity: 1;
+}
+
+.cls-933:active {
+  fill: #df7760;
+  opacity: 1;
+}
+
+/*FOR SVG2*/
+.cls-611 {
+  fill: #df7760;
+  opacity: 0.4;
+}
+
+.cls-611:hover {
+  fill: #df7760;
+  opacity: 1;
+}
+
+.cls-611:active {
+  fill: #df7760;
+  opacity: 1;
+}
+
+.contentDiv {
+  margin: 0 auto;
+  display: block;
+}
+
+/*FOR HTML*/
+.cbp-content {
+	width: 100% !important;
+}
+
+.feature-img {
+	width: 100%;
+}
+
+.row {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+.slideTitle {
+	margin-bottom: 15px !important;
+}
