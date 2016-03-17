@@ -1,15 +1,15 @@
 /*FOR SVG1*/
-.cls-933 {
+.reef1cls-933 {
   fill: #df7760;
   opacity: 0.4;
 }
 
-.cls-933:hover {
+.reef1cls-933:hover {
   fill: #df7760;
   opacity: 1;
 }
 
-.cls-933:active {
+.reef1cls-933:active {
   fill: #df7760;
   opacity: 1;
 }
@@ -37,7 +37,11 @@
 
 /*FOR HTML*/
 .cbp-content {
-	width: 100% !important;
+	width: 60% !important;
+  margin: 0 auto !important;
+  display: block;
+  float: none !important;
+  margin-top: 15px !important;
 }
 
 .feature-img {
@@ -51,4 +55,17 @@
 
 .slideTitle {
 	margin-bottom: 15px !important;
+}
+
+.cbp-contentslider li > div {
+  position: relative !important;
+}
+
+@media screen and (max-width: 67.75em) {
+  .cbp-contentslider nav a span {
+    display: block !important;
+  }
+  .cbp-content {
+  	width: 100% !important;
+  }
 }
